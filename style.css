@@ -1,0 +1,58 @@
+.addlist {
+  width: 300px;
+  height: 300px;
+  background: rgb(71, 159, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+}
+.newList {
+  width: 300px;
+  height: 300px;
+  background: rgb(71, 159, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 23pc;
+  margin-top: -18.8pc;
+  font-family: sans-serif;
+  border-radius: 10px;
+}
+input {
+  padding: 0.4pc;
+  border: 2px solid blue;
+  outline: none;
+  width: 13pc;
+  height: 1.6pc;
+  border-radius: 10px;
+}
+.addlist button {
+  border-radius: 10px;
+  padding: 10px, 30px;
+  border: 2px solid greenyellow;
+  background: rgb(71, 147, 239);
+  cursor: pointer;
+  width: 4.5pc;
+  height: 1.8pc;
+  font-size: 1pc;
+}
+.addlist button:hover {
+  background: #0f2cab;
+  color: white;
+}
+.todo {
+  margin-left: 18pc;
+  margin-top: 10pc;
+}
+.newList h4 {
+  color: black;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
